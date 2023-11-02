@@ -1,5 +1,6 @@
 package com.driver;
 
+//Polymorphism Example
 public class Main {
 
 
@@ -18,7 +19,9 @@ public class Main {
         }
     }
 
+    
     public static void main(String[] args) {
+        //Create object of a Class
         Product p = new Product();
         p.product(3, 4);
         p.product(3, 4, 5);
